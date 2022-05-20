@@ -7,7 +7,7 @@ on other metrics like comments, likes etc. The problem statement is therefore
 to train various regression models and choose the best one to predict the
 number of adviews. The data needs to be refined and cleaned before feeding
 in the algorithms for better results.
-Attribute Information
+# Attribute Information
 'vidid' : Unique Identification ID for each video
 'adview' : The number of adviews for each video
 'views' : The number of unique views for each video
@@ -17,10 +17,10 @@ Attribute Information
 'published' : The data of uploading the video
 'duration' : The duration of the video (in min. and seconds)
 'category' : Category niche of each of the video
-Objective
+# Objective
 To build a machine learning regression to predict youtube adview count based
 on other youtube metrics.
-Steps and Tasks
+# Steps and Tasks
 1. Import the datasets and libraries, check shape and datatype.
 2. Visualise the dataset using plotting using heatmaps and plots. You
 can study data distributions for each attribute as well.
